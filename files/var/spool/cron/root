@@ -1,0 +1,3 @@
+00  7 * * 1,3,5 zpool scrub zroot
+00 12 * * 1,3,5 zpool trim  zroot
+00 14 * * 0,2,4 paccache -rk2

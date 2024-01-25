@@ -1,0 +1,6 @@
+UUID=7F3C-7CF1  /boot  vfat  rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro  0 2
+
+/dev/zvol/zroot/encr/nobackup/DOCKER  /var/lib/docker  ext4  defaults  0 0
+
+# until https://github.com/openzfs/zfs/issues/9461 is solved:
+# / /sysroot none bind 0 0
