@@ -5,6 +5,9 @@ AddPackage stress # A tool that stress tests your system (CPU, memory, I/O, disk
 AddPackage dmidecode # Desktop Management Interface table related utilities
 AddPackage udiskie # Removable disk automounter using udisks
 AddPackage wavemon # Ncurses-based monitoring application for wireless network devices
+AddPackage gparted # A Partition Magic clone, frontend to GNU Parted
+AddPackage mtools # A collection of utilities to access MS-DOS disks
+AddPackage ntfs-3g # NTFS filesystem driver and utilities
 
 # ----------- Firmware Updates--------------------------------------------------
 # https://github.com/fwupd/fwupd/wiki/PluginFlag:esp-not-found
