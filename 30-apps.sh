@@ -86,6 +86,10 @@ IgnorePath '/usr/share/keepass'
 AddPackage --foreign sanoid # Policy-driven snapshot management (sanoid), dataset sending/receiving (syncoid) and snapshot searching (findoid) tools for ZFS.
 CopyFile /etc/sanoid/sanoid.conf
 CreateLink /etc/systemd/system/timers.target.wants/sanoid.timer /usr/lib/systemd/system/sanoid.timer
+# sanoid/syncoid dependencies
+AddPackage lzop # File compressor using lzo lib
+AddPackage mbuffer # A tool for buffering data streams
+AddPackage pv # A terminal-based tool for monitoring the progress of data through a pipeline
 
 # ----------- Virtualization ---------------------------------------------------
 AddPackage virtualbox # Powerful x86 virtualization for enterprise as well as home use
