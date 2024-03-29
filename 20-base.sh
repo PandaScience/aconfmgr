@@ -69,13 +69,12 @@ AddPackage mpd # Flexible, powerful, server-side application for playing music
 AddPackage ncmpcpp # Almost exact clone of ncmpc with some new features
 
 # ----------- Fonts ------------------------------------------------------------
-AddPackage ttf-hack-nerd # Patched font Hack from nerd fonts library
+AddPackage otf-monaspace-nerd # Patched font Monaspace (Monaspice) from nerd fonts library
 AddPackage ttf-dejavu-nerd # Patched font Dejavu Sans Mono from nerd fonts library
 AddPackage noto-fonts # Google Noto TTF fonts
 AddPackage noto-fonts-cjk # Google Noto CJK fonts
 AddPackage noto-fonts-emoji # Google Noto emoji fonts
 AddPackage noto-fonts-extra # Google Noto TTF fonts - additional variants
-AddPackage otf-font-awesome # Iconic font designed for Bootstrap
 AddPackage ttf-arphic-ukai # CJK Unicode font Kaiti style
 AddPackage wqy-zenhei # A Hei Ti Style (sans-serif) Chinese Outline Font.
 
