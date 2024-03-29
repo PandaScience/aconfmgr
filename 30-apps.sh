@@ -17,6 +17,7 @@ AddPackage chromium # A web browser built for speed, simplicity, and security
 
 # ----------- Keyboard ---------------------------------------------------------
 AddPackage qmk # CLI tool for customizing supported mechanical keyboards.
+CopyFile /etc/udev/rules.d/50-qmk.rules
 
 # ----------- Programming ------------------------------------------------------
 AddPackage go # Core compiler tools for the Go programming language
