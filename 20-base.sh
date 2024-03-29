@@ -46,6 +46,7 @@ AddPackage fzf # Command-line fuzzy finder
 AddPackage git # the fast distributed version control system
 AddPackage git-delta # Syntax-highlighting pager for git and diff output
 AddPackage meld # Compare files, directories and working copies
+AddPackage --foreign mise-bin # The front-end to your dev env
 AddPackage ripgrep # A search tool that combines the usability of ag with the raw speed of grep
 AddPackage rsync # A fast and versatile file copying tool for remote and local files
 AddPackage sd # Intuitive find & replace
@@ -127,6 +128,8 @@ AddPackage python-gobject # Python bindings for GLib/GObject/GIO/GTK
 # neovim plugins
 AddPackage rustup # The Rust toolchain installer
 AddPackage npm # A package manager for JavaScript
+# mise watch
+AddPackage watchexec # Executes commands in response to file modifications
 
 
 # =========== Config Files =====================================================
