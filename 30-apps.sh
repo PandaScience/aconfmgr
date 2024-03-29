@@ -22,6 +22,7 @@ CopyFile /etc/udev/rules.d/50-qmk.rules
 # ----------- Programming ------------------------------------------------------
 AddPackage go # Core compiler tools for the Go programming language
 AddPackage python # The Python programming language
+AddPackage python-pipx # Install and Run Python Applications in Isolated Environments
 AddPackage jq # Command-line JSON processor
 AddPackage go-yq # Portable command-line YAML processor
 AddPackage jless # A command-line pager for JSON data
