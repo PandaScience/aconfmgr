@@ -102,8 +102,8 @@ AddPackage kanshi # Dynamic output configuration for Wayland WMs
 AddPackage --foreign wdisplays # GUI display configurator for wlroots compositors
 AddPackage --foreign wlr-randr # Utility to manage outputs of a Wayland compositor
 
-AddPackage swayidle # Idle management daemon for Wayland
-AddPackage --foreign swaylock-effects # A fancier screen locker for Wayland.
+AddPackage hypridle # hyprland’s idle daemon
+AddPackage hyprlock # hyprland’s GPU-accelerated screen locking utility
 AddPackage --foreign wlogout # Logout menu for wayland
 AddPackage --foreign swww # Efficient animated wallpaper daemon for wayland, controlled at runtime.
 AddPackage --foreign brillo # Control the brightness of backlight and keyboard LED devices
