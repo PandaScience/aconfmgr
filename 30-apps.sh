@@ -22,6 +22,8 @@ AddPackage qmk # CLI tool for customizing supported mechanical keyboards.
 AddPackage go # Core compiler tools for the Go programming language
 AddPackage python # The Python programming language
 AddPackage jq # Command-line JSON processor
+AddPackage go-yq # Portable command-line YAML processor
+AddPackage jless # A command-line pager for JSON data
 AddPackage prettier # An opinionated code formatter
 AddPackage shellcheck # Shell script analysis tool
 AddPackage tokei # A blazingly fast CLOC (Count Lines Of Code) program
