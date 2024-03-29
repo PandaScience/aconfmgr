@@ -45,6 +45,8 @@ AddPackage fd # Simple, fast and user-friendly alternative to find
 AddPackage fzf # Command-line fuzzy finder
 AddPackage git # the fast distributed version control system
 AddPackage git-delta # Syntax-highlighting pager for git and diff output
+AddPackage git-lfs # Git extension for versioning large files
+AddPackage git-revise # A git subcommand to efficiently update, split, and rearrange commits
 AddPackage meld # Compare files, directories and working copies
 AddPackage --foreign mise-bin # The front-end to your dev env
 AddPackage ripgrep # A search tool that combines the usability of ag with the raw speed of grep
