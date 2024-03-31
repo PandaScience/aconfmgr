@@ -7,6 +7,7 @@ AddPackage udiskie # Removable disk automounter using udisks
 AddPackage gparted # A Partition Magic clone, frontend to GNU Parted
 AddPackage mtools # A collection of utilities to access MS-DOS disks
 AddPackage ntfs-3g # NTFS filesystem driver and utilities
+AddPackage ncdu # Disk usage analyzer with an ncurses interface
 
 AddPackage wavemon # Ncurses-based monitoring application for wireless network devices
 AddPackage ipcalc # Calculates IP broadcast, network, Cisco wildcard mask, and host ranges
