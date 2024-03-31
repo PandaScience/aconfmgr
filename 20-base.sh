@@ -146,7 +146,6 @@ CopyFileTo /boot/refind_linux.conf."$HOSTNAME" /boot/refind_linux.conf 755
 CopyFile /etc/sudoers
 CopyFile /etc/systemd/zram-generator.conf
 CopyFile /etc/sysctl.d/99-vm-zram-parameters.conf
-CopyFile /etc/mkinitcpio.conf
 CopyFile /etc/locale.conf
 CopyFile /etc/locale.gen
 
@@ -174,6 +173,12 @@ sed -i 's/^#PasswordAuthentication yes/PasswordAuthentication no/' "$f"
 # prevent yay from installing <appname>-debug packages alongside base packages
 f="$(GetPackageOriginalFile pacman /etc/makepkg.conf)"
 sed -i '/^OPTIONS/s/debug/!debug/' "$f"
+
+# custom initramfs image hooks
+f="$(GetPackageOriginalFile mkinitcpio /etc/mkinitcpio.conf)"
+HOOKS="(base udev autodetect microcode modconf kms keyboard keymap block zfs filesystems)"
+sed -i "s/^HOOKS=.*/HOOKS=${HOOKS}/" "$f"
+sed -i 's/^MODULES=.*/MODULES=(zfs)/' "$f"
 
 # =========== Services =========================================================
 
