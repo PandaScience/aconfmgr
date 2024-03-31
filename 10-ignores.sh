@@ -38,8 +38,7 @@ IgnorePath '/var/lib/blueman/network.state'
 IgnorePath '/var/lib/upower'
 IgnorePath '/var/lib/geoclue'
 IgnorePath '/var/lib/pacman/local' # package metadata
-IgnorePath '/var/lib/pacman/sync/*.db' # repos
-IgnorePath '/var/lib/pacman/sync/*.db.sig' # repo sigs
+IgnorePath '/var/lib/pacman/sync/*' # repos
 IgnorePath '/var/lib/NetworkManager'
 IgnorePath '/var/lib/containers'
 IgnorePath '/var/lib/dbus/machine-id'
