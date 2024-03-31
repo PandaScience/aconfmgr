@@ -4,10 +4,16 @@
 AddPackage stress # A tool that stress tests your system (CPU, memory, I/O, disks)
 AddPackage dmidecode # Desktop Management Interface table related utilities
 AddPackage udiskie # Removable disk automounter using udisks
-AddPackage wavemon # Ncurses-based monitoring application for wireless network devices
 AddPackage gparted # A Partition Magic clone, frontend to GNU Parted
 AddPackage mtools # A collection of utilities to access MS-DOS disks
 AddPackage ntfs-3g # NTFS filesystem driver and utilities
+
+AddPackage wavemon # Ncurses-based monitoring application for wireless network devices
+AddPackage ipcalc # Calculates IP broadcast, network, Cisco wildcard mask, and host ranges
+AddPackage ldns # Fast DNS library supporting recent RFCs
+AddPackage mtr # Combines the functionality of traceroute and ping into one tool (CLI version)
+AddPackage sipcalc # an advanced console based ip subnet calculator.
+AddPackage whois # Intelligent WHOIS client
 
 # ----------- Firmware Updates--------------------------------------------------
 # https://github.com/fwupd/fwupd/wiki/PluginFlag:esp-not-found
