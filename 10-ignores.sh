@@ -105,6 +105,7 @@ IgnorePath '/etc/resolv.conf'
 IgnorePath '/etc/shells'
 IgnorePath '/etc/ssh/ssh_host_*'
 IgnorePath '/etc/pacman.d/mirrorlist' # updated by reflector
+IgnorePath '/etc/zfs/zpool.cache'
 
 IgnorePath '/etc/NetworkManager/system-connections'
 IgnorePath '/etc/iwd'
