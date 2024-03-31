@@ -125,6 +125,8 @@ AddPackage --foreign numix-icon-theme-git # Base icon theme from the Numix proje
 AddPackage cmake # A cross-platform open-source make system
 AddPackage cpio # A tool to copy files into or out of a cpio or tar archive
 AddPackage meson # High productivity build system
+# from hyprcursor dependency
+SetFileProperty /usr/include/hyprcursor mode 777
 # gammastep / gammastep-indicator
 AddPackage python-gobject # Python bindings for GLib/GObject/GIO/GTK
 # neovim plugins
