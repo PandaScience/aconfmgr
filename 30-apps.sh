@@ -34,6 +34,11 @@ AddPackage shellcheck # Shell script analysis tool
 AddPackage tokei # A blazingly fast CLOC (Count Lines Of Code) program
 AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 
+# ----------- Gaming -----------------------------------------------------------
+AddPackage steam # Valve's digital software delivery system
+# steam dependency: xdg-user-dirs, local config in ~/.config/user-dirs.dirs
+CreateLink /etc/systemd/user/default.target.wants/xdg-user-dirs-update.service /usr/lib/systemd/user/xdg-user-dirs-update.service
+
 # ----------- Multimedia -------------------------------------------------------
 AddPackage socat # Multipurpose relay - remote control ytfzf with XF86AudioPlay
 AddPackage mpc # Minimalist command line interface to MPD
