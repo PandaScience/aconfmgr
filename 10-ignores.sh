@@ -61,6 +61,8 @@ IgnorePath '/var/lib/systemd/timesync/clock'
 IgnorePath '/var/lib/tpm2-tss/system/keystore'
 IgnorePath '/var/lib/mlocate/mlocate.db'
 IgnorePath '/var/lib/docker'
+IgnorePath '/var/lib/lastlog'
+IgnorePath '/var/lib/libuuid'
 
 IgnorePath '/usr/lib/modules'
 IgnorePath '/usr/lib/locale/locale-archive'
