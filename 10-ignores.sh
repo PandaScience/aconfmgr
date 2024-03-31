@@ -23,6 +23,7 @@ IgnorePath '/etc/pacman.d/gnupg'
 IgnorePath '/etc/openvpn/client'
 IgnorePath '/etc/openvpn/server'
 IgnorePath '/etc/exports.d/zfs.exports.lock'
+IgnorePath '/etc/vconsole.conf'
 
 IgnorePath '/var/.updated'
 IgnorePath '/var/log'

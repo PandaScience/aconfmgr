@@ -141,7 +141,6 @@ CopyFile /boot/EFI/refind/refind.conf 755
 CopyFileTo /boot/refind_linux.conf."$HOSTNAME" /boot/refind_linux.conf 755
 
 # system
-CopyFile /etc/vconsole.conf
 CopyFile /etc/sudoers
 CopyFile /etc/systemd/zram-generator.conf
 CopyFile /etc/sysctl.d/99-vm-zram-parameters.conf
