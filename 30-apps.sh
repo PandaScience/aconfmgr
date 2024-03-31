@@ -53,7 +53,38 @@ AddPackage cameractrls # Camera controls for Linux
 AddPackage guvcview # Simple GTK+ interface for capturing and viewing video from v4l2 devices
 
 AddPackage eog # Eye of Gnome: An image viewing and cataloging program
+AddPackage gimp # GNU Image Manipulation Program
+AddPackage inkscape # Professional vector graphics editor
+
+AddPackage libreoffice-fresh # LibreOffice branch which contains new features and program enhancements
 AddPackage --foreign qpdfview # A tabbed PDF viewer using the poppler library
+
+# installed as group extra/texlive
+AddPackage texlive-basic # TeX Live - Essential programs and files
+AddPackage texlive-bibtexextra # TeX Live - BibTeX additional styles
+AddPackage texlive-binextra # TeX Live - TeX auxiliary programs
+AddPackage texlive-context # TeX Live - ConTeXt and packages
+AddPackage texlive-fontsextra # TeX Live - Additional fonts
+AddPackage texlive-fontsrecommended # TeX Live - Recommended fonts
+AddPackage texlive-fontutils # TeX Live - Graphics and font utilities
+AddPackage texlive-formatsextra # TeX Live - Additional formats
+AddPackage texlive-games # TeX Live - Games typesetting
+AddPackage texlive-humanities # TeX Live - Humanities packages
+AddPackage texlive-latex # TeX Live - LaTeX fundamental packages
+AddPackage texlive-latexextra # TeX Live - LaTeX additional packages
+AddPackage texlive-latexrecommended # TeX Live - LaTeX recommended packages
+AddPackage texlive-luatex # TeX Live - LuaTeX packages
+AddPackage texlive-mathscience # TeX Live - Mathematics, natural sciences, computer science packages
+AddPackage texlive-metapost # TeX Live - MetaPost and Metafont packages
+AddPackage texlive-music # TeX Live - Music packages
+AddPackage texlive-pictures # TeX Live - Graphics, pictures, diagrams
+AddPackage texlive-plaingeneric # TeX Live - Plain (La)TeX packages
+AddPackage texlive-pstricks # TeX Live - PSTricks
+AddPackage texlive-publishers # TeX Live - Publisher styles, theses, etc.
+AddPackage texlive-xetex # TeX Live - XeTeX and packages
+IgnorePath '/etc/texmf/*'
+IgnorePath '/var/lib/texmf'
+IgnorePath '/usr/share/texmf-dist'
 
 # ----------- Print & Scan -----------------------------------------------------
 AddPackage cups # OpenPrinting CUPS - daemon package
