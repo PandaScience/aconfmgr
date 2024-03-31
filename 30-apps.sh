@@ -101,11 +101,11 @@ IgnorePath '/usr/share/texmf-dist'
 AddPackage cups # OpenPrinting CUPS - daemon package
 AddPackage simple-scan # Simple scanning utility
 AddPackage --foreign brother-mfc-l2750dw # LPR and CUPS driver for the Brother MFC-l2750DW
-AddPackage --foreign brscan4 # SANE drivers from Brother for compatible models
+AddPackage --foreign brscan5 # SANE drivers from Brother for compatible models
 
 CreateLink /etc/systemd/system/sockets.target.wants/cups.socket /usr/lib/systemd/system/cups.socket
 
-IgnorePath '/opt/brother/scanner/brscan4/brsanenetdevice4.cfg'
+IgnorePath '/etc/opt/brother/scanner/brscan5/brsanenetdevice.cfg'
 IgnorePath '/etc/cups/*'
 IgnorePath '/var/spool/cups'
 IgnorePath '/etc/printcap'
