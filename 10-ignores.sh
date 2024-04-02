@@ -116,4 +116,10 @@ IgnorePath '/etc/iwd'
 IgnorePath '/opt/k3d'
 IgnorePath '/scratch'
 
-# =========== Misc =============================================================
+# =========== Selective Ignores ================================================
+
+# SLACK_URL in /etc/environment
+function EtcEnvironmentFilter() {
+	grep -v '^SLACK_URL='
+}
+AddFileContentFilter '/etc/environment' EtcEnvironmentFilter

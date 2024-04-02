@@ -1,0 +1,8 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+# SLACK_URL: set this to your slack app's incoming webhook url in order to
+#            enable slack notifications for monitoring, backup etc.,
+#            see here: https://api.slack.com/messaging/webhooks

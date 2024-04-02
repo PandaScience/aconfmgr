@@ -148,6 +148,7 @@ CopyFile /etc/systemd/zram-generator.conf
 CopyFile /etc/sysctl.d/99-vm-zram-parameters.conf
 CopyFile /etc/locale.conf
 CopyFile /etc/locale.gen
+CopyFile /etc/environment
 
 # networking
 CopyFile /etc/systemd/timesyncd.conf
