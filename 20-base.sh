@@ -109,7 +109,7 @@ AddPackage --foreign swww # Efficient animated wallpaper daemon for wayland, con
 AddPackage --foreign brillo # Control the brightness of backlight and keyboard LED devices
 AddPackage --foreign warpd-git # A modal keyboard driven interface for mouse manipulation.
 
-AddPackage mako # Lightweight notification daemon for Wayland
+AddPackage dunst # Customizable and lightweight notification-daemon
 AddPackage cliphist # wayland clipboard manager
 AddPackage wofi # launcher for wlroots-based wayland compositors
 AddPackage network-manager-applet # Applet for managing network connections
