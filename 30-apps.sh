@@ -117,6 +117,7 @@ IgnorePath '/etc/sane.d/*'
 # ----------- Communication ----------------------------------------------------
 AddPackage --foreign slack-desktop # Slack Desktop (Beta) for Linux
 AddPackage thunderbird # Standalone mail and news reader from mozilla.org
+AddPackage --foreign zoom # Video Conferencing and Web Conferencing Service
 
 # ----------- Security ---------------------------------------------------------
 AddPackage keepass # Easy-to-use password manager for Windows, Linux, Mac OS X and mobile devices
