@@ -1,8 +1,10 @@
 # =========== Base System ====================================================
 
 IgnorePath '/boot/EFI/refind/icons'
+IgnorePath '/boot/EFI/refind/icons-backup'
 IgnorePath '/boot/EFI/refind/themes'
 IgnorePath '/boot/EFI/refind/keys'
+IgnorePath '/boot/EFI/refind/refind.conf-sample'
 IgnorePath '/boot/EFI/refind/BOOT.CSV'
 IgnorePath '/boot/EFI/refind/refind_x64.efi'
 IgnorePath '/boot/EFI/refind/vars/PreviousBoot'
