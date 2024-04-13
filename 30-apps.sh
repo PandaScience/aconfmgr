@@ -153,3 +153,9 @@ EOF
 IgnorePath '/var/lib/containerd'
 IgnorePath '/var/lib/cni/networks'
 IgnorePath '/etc/cni/net.d'
+
+AddPackage docker # Pack, ship and run any application as a lightweight container
+CreateLink /etc/systemd/system/multi-user.target.wants/docker.service /usr/lib/systemd/system/docker.service
+IgnorePath /etc/containers/networks
+IgnorePath /opt/containerd/bin 711
+IgnorePath /opt/containerd/lib 711
