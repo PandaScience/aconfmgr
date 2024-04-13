@@ -16,4 +16,7 @@ if [[ "$(hostnamectl hostname)" == "framework" ]]; then
 
 	AddPackage vulkan-radeon # Open-source Vulkan driver for AMD GPUs
 	AddPackage lib32-vulkan-radeon # Open-source Vulkan driver for AMD GPUs - 32-bit
+
+	AddPackage power-profiles-daemon # Makes power profiles handling available over D-Bus
+	CreateDir /var/lib/power-profiles-daemon
 fi
