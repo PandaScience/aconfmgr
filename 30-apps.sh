@@ -45,6 +45,9 @@ AddPackage aws-cli-v2 # Unified command line interface for Amazon Web Services (
 AddPackage azure-cli # Command-line tools for Azure.
 AddPackage --foreign google-cloud-cli # A set of command-line tools for the Google Cloud Platform. Includes gcloud (with beta and alpha commands), gsutil, and bq.
 
+AddPackage minikube # A tool that makes it easy to run Kubernetes locally
+AddPackage --foreign rancher-k3d-bin # Little helper to run Rancher Labs k3s in Docker
+
 # ----------- Gaming -----------------------------------------------------------
 AddPackage steam # Valve's digital software delivery system
 # steam dependency: xdg-user-dirs, local config in ~/.config/user-dirs.dirs
