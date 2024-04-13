@@ -41,6 +41,10 @@ AddPackage shellcheck # Shell script analysis tool
 AddPackage tokei # A blazingly fast CLOC (Count Lines Of Code) program
 AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 
+AddPackage aws-cli-v2 # Unified command line interface for Amazon Web Services (version 2)
+AddPackage azure-cli # Command-line tools for Azure.
+AddPackage --foreign google-cloud-cli # A set of command-line tools for the Google Cloud Platform. Includes gcloud (with beta and alpha commands), gsutil, and bq.
+
 # ----------- Gaming -----------------------------------------------------------
 AddPackage steam # Valve's digital software delivery system
 # steam dependency: xdg-user-dirs, local config in ~/.config/user-dirs.dirs
