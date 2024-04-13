@@ -1,6 +1,6 @@
 # amdgpu.sg_display -> https://wiki.archlinux.org/title/Framework_Laptop_13#(AMD)_Flickering,_artifacts_and_a_white_screen_when_a_second_monitor_is_connected
 
-"Boot using default options"     "root=PARTUUID=a3e324df-aa2c-4d8e-86b7-18847d325078 rw add_efi_memmap zfs=bootfs zswap.enabled=0 amdgpu.sg_display=0 initrd=amd-ucode.img initrd=initramfs-%v.img"
-"Boot using fallback initramfs"  "root=PARTUUID=a3e324df-aa2c-4d8e-86b7-18847d325078 rw add_efi_memmap zfs=bootfs zswap.enabled=0 amdgpu.sg_display=0 initrd=amd-ucode.img initrd=initramfs-%v-fallback.img"
-"Boot to terminal"               "root=PARTUUID=a3e324df-aa2c-4d8e-86b7-18847d325078 rw add_efi_memmap zfs=bootfs zswap.enabled=0 amdgpu.sg_display=0 initrd=amd-ucode.img initrd=initramfs-%v.img systemd.unit=multi-user.target"
-"Boot in single user mode"       "root=PARTUUID=a3e324df-aa2c-4d8e-86b7-18847d325078 rw add_efi_memmap zfs=bootfs zswap.enabled=0 amdgpu.sg_display=0 initrd=amd-ucode.img initrd=initramfs-%v.img single"
+"Boot using default options"     "root=PARTUUID=a3e324df-aa2c-4d8e-86b7-18847d325078 rw add_efi_memmap zfs=bootfs zswap.enabled=0 amdgpu.sg_display=0 initrd=initramfs-%v.img"
+"Boot using fallback initramfs"  "root=PARTUUID=a3e324df-aa2c-4d8e-86b7-18847d325078 rw add_efi_memmap zfs=bootfs zswap.enabled=0 amdgpu.sg_display=0 initrd=initramfs-%v-fallback.img"
+"Boot to terminal"               "root=PARTUUID=a3e324df-aa2c-4d8e-86b7-18847d325078 rw add_efi_memmap zfs=bootfs zswap.enabled=0 amdgpu.sg_display=0 initrd=initramfs-%v.img systemd.unit=multi-user.target"
+"Boot in single user mode"       "root=PARTUUID=a3e324df-aa2c-4d8e-86b7-18847d325078 rw add_efi_memmap zfs=bootfs zswap.enabled=0 amdgpu.sg_display=0 initrd=initramfs-%v.img single"
