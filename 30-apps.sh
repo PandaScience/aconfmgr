@@ -29,6 +29,14 @@ AddPackage chromium # A web browser built for speed, simplicity, and security
 AddPackage qmk # CLI tool for customizing supported mechanical keyboards.
 CopyFile /etc/udev/rules.d/50-qmk.rules
 
+AddPackage fcitx5 # Next generation of fcitx
+AddPackage fcitx5-configtool # Configuration Tool for Fcitx5
+AddPackage fcitx5-gtk # Fcitx5 gtk im module and glib based dbus client library
+AddPackage fcitx5-material-color # Material color theme for fcitx5
+AddPackage fcitx5-nord # Fcitx5 theme based on Nord color
+AddPackage fcitx5-qt # Fcitx5 Qt Library (Qt5 & Qt6 integrations)
+AddPackage fcitx5-rime # RIME support for Fcitx5
+
 # ----------- Programming ------------------------------------------------------
 AddPackage go # Core compiler tools for the Go programming language
 AddPackage python # The Python programming language
