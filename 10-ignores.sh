@@ -83,6 +83,8 @@ IgnorePath '/usr/lib/gtk-2.0'
 IgnorePath '/usr/lib/gtk-3.0'
 IgnorePath '/usr/lib/gtk-4.0'
 IgnorePath "/usr/lib/ghc-*"
+IgnorePath '/usr/lib/gconv'
+IgnorePath '/usr/lib32/gconv'
 
 IgnorePath '/etc/passwd'
 IgnorePath '/etc/passwd-'
