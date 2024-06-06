@@ -100,7 +100,7 @@ AddPackage xdg-desktop-portal-hyprland # xdg-desktop-portal backend for hyprland
 
 AddPackage kanshi # Dynamic output configuration for Wayland WMs
 AddPackage --foreign wdisplays # GUI display configurator for wlroots compositors
-AddPackage --foreign wlr-randr # Utility to manage outputs of a Wayland compositor
+AddPackage wlr-randr # Utility to manage outputs of a Wayland compositor
 
 AddPackage hypridle # hyprland’s idle daemon
 AddPackage hyprlock # hyprland’s GPU-accelerated screen locking utility
