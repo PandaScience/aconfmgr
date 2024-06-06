@@ -13,6 +13,7 @@ if [[ "$(hostnamectl hostname)" == "framework" ]]; then
 	EOF
 
 	AddPackage --foreign framework-system-git # Tool to interact with the framework system (git development version)
+	AddPackage --foreign fw-ectool-git # ectool for the Framework laptop.
 
 	AddPackage vulkan-radeon # Open-source Vulkan driver for AMD GPUs
 	AddPackage lib32-vulkan-radeon # Open-source Vulkan driver for AMD GPUs - 32-bit
