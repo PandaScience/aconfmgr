@@ -153,6 +153,8 @@ AddPackage pv # A terminal-based tool for monitoring the progress of data throug
 # ----------- Virtualization ---------------------------------------------------
 AddPackage virtualbox # Powerful x86 virtualization for enterprise as well as home use
 AddPackage virtualbox-host-modules-arch # Virtualbox host kernel modules for Arch Kernel
+AddPackage libvirt # API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)
+IgnorePath '/var/lib/libvirt/swtpm'
 
 AddPackage podman # Tool and library for running OCI-based containers in pods
 AddPackage buildah # A tool which facilitates building OCI images
