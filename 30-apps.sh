@@ -8,6 +8,7 @@ AddPackage gparted # A Partition Magic clone, frontend to GNU Parted
 AddPackage mtools # A collection of utilities to access MS-DOS disks
 AddPackage ntfs-3g # NTFS filesystem driver and utilities
 AddPackage ncdu # Disk usage analyzer with an ncurses interface
+AddPackage nautilus # Default file manager for GNOME
 
 AddPackage wavemon # Ncurses-based monitoring application for wireless network devices
 AddPackage ipcalc # Calculates IP broadcast, network, Cisco wildcard mask, and host ranges
@@ -73,6 +74,8 @@ AddPackage easyeffects # Audio Effects for Pipewire applications
 AddPackage element # A modular LV2/VST3 audio plugin host
 AddPackage lsp-plugins-lv2 # Collection of open-source plugins - LV2
 
+AddPackage musescore # Create, play and print beautiful sheet music
+
 AddPackage grim # Screenshot utility for Wayland
 AddPackage slurp # Select a region in a Wayland compositor
 
@@ -84,6 +87,7 @@ AddPackage gimp # GNU Image Manipulation Program
 AddPackage inkscape # Professional vector graphics editor
 
 AddPackage libreoffice-fresh # LibreOffice branch which contains new features and program enhancements
+AddPackage mupdf # Lightweight PDF and XPS viewer
 AddPackage --foreign qpdfview # A tabbed PDF viewer using the poppler library
 
 # installed as group extra/texlive
@@ -149,6 +153,8 @@ CreateLink /etc/systemd/system/timers.target.wants/sanoid.timer /usr/lib/systemd
 AddPackage lzop # File compressor using lzo lib
 AddPackage mbuffer # A tool for buffering data streams
 AddPackage pv # A terminal-based tool for monitoring the progress of data through a pipeline
+
+AddPackage android-file-transfer # Android MTP client with minimalistic UI
 
 # ----------- Virtualization ---------------------------------------------------
 AddPackage virtualbox # Powerful x86 virtualization for enterprise as well as home use
