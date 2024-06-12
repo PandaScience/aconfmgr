@@ -94,6 +94,7 @@ AddPackage qt6ct # Qt 6 Configuration Utility
 AddPackage greetd # Generic greeter daemon
 AddPackage greetd-tuigreet # A console UI greeter for greetd
 AddPackage hyprland # a highly customizable dynamic tiling Wayland compositor
+AddPackage hyprwayland-scanner # A Hyprland implementation of wayland-scanner, in and for C++
 AddPackage waybar # Highly customizable Wayland bar for Sway and Wlroots based compositors
 
 AddPackage xdg-desktop-portal-hyprland # xdg-desktop-portal backend for hyprland
