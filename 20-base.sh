@@ -133,6 +133,9 @@ AddPackage python-gobject # Python bindings for GLib/GObject/GIO/GTK
 # neovim plugins
 AddPackage rustup # The Rust toolchain installer
 AddPackage npm # A package manager for JavaScript
+AddPackage ctags # Generates an index file of language objects found in source files
+AddPackage tree-sitter-cli # CLI tool for developing, testing, and using Tree-sitter parsers
+
 # mise watch
 AddPackage watchexec # Executes commands in response to file modifications
 
