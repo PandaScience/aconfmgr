@@ -106,7 +106,7 @@ AddPackage wlr-randr # Utility to manage outputs of a Wayland compositor
 AddPackage hypridle # hyprland’s idle daemon
 AddPackage hyprlock # hyprland’s GPU-accelerated screen locking utility
 AddPackage --foreign wlogout # Logout menu for wayland
-AddPackage --foreign swww # Efficient animated wallpaper daemon for wayland, controlled at runtime.
+AddPackage swww # Efficient animated wallpaper daemon for wayland, controlled at runtime.
 AddPackage --foreign brillo # Control the brightness of backlight and keyboard LED devices
 AddPackage --foreign warpd-git # A modal keyboard driven interface for mouse manipulation.
 
