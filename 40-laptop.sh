@@ -22,4 +22,6 @@ if [[ "$(hostnamectl hostname)" == "framework" ]]; then
 
 	AddPackage power-profiles-daemon # Makes power profiles handling available over D-Bus
 	CreateDir /var/lib/power-profiles-daemon
+
+	AddPackage signal-desktop # Signal Private Messenger for Linux
 fi
