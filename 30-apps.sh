@@ -65,11 +65,14 @@ AddPackage steam # Valve's digital software delivery system
 CreateLink /etc/systemd/user/default.target.wants/xdg-user-dirs-update.service /usr/lib/systemd/user/xdg-user-dirs-update.service
 
 # ----------- Multimedia -------------------------------------------------------
-AddPackage socat # Multipurpose relay - remote control ytfzf with XF86AudioPlay
+AddPackage mpd # Flexible, powerful, server-side application for playing music
 AddPackage mpc # Minimalist command line interface to MPD
+AddPackage ncmpcpp # Almost exact clone of ncmpc with some new features
 AddPackage mpv # a free, open source, and cross-platform media player
-AddPackage yt-dlp # A youtube-dl fork with additional features and fixes
+AddPackage mpv-mpris # MPRIS plugin for mpv
+AddPackage ncspot # Cross-platform ncurses Spotify client written in Rust, inspired by ncmpc and the likes.
 AddPackage ytfzf # A POSIX script to find and watch youtube videos from the terminal
+AddPackage yt-dlp # A youtube-dl fork with additional features and fixes
 
 AddPackage helvum # GTK patchbay for PipeWire
 AddPackage easyeffects # Audio Effects for Pipewire applications

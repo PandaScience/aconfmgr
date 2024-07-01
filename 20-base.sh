@@ -68,9 +68,6 @@ AddPackage blueman # GTK+ Bluetooth Manager
 AddPackage bluez # Daemons for the bluetooth protocol stack
 AddPackage bluez-utils # Development and debugging utilities for the bluetooth protocol stack
 
-AddPackage mpd # Flexible, powerful, server-side application for playing music
-AddPackage ncmpcpp # Almost exact clone of ncmpc with some new features
-
 # ----------- Fonts ------------------------------------------------------------
 AddPackage otf-monaspace-nerd # Patched font Monaspace (Monaspice) from nerd fonts library
 AddPackage ttf-dejavu-nerd # Patched font Dejavu Sans Mono from nerd fonts library
