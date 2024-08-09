@@ -50,7 +50,9 @@ AddPackage shellcheck # Shell script analysis tool
 AddPackage tokei # A blazingly fast CLOC (Count Lines Of Code) program
 AddPackage gitui # Blazing fast terminal-ui for git written in Rust
 AddPackage tig # Text-mode interface for Git.
+
 AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
+CopyFile /usr/share/applications/code-wayland.desktop
 
 AddPackage --foreign aws-cli-v2 # Unified command line interface for Amazon Web Services (version 2)
 AddPackage azure-cli # Command-line tools for Azure.
