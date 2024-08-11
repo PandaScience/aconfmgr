@@ -45,6 +45,7 @@ IgnorePath '/var/lib/pacman/sync/*' # repos
 IgnorePath '/var/lib/NetworkManager'
 IgnorePath '/var/lib/containers'
 IgnorePath '/var/lib/dbus/machine-id'
+IgnorePath '/var/lib/dkms/mok.*'
 IgnorePath '/var/lib/flatpak'
 IgnorePath '/var/lib/machines'
 IgnorePath '/var/lib/mpd'

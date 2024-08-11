@@ -9,6 +9,7 @@ AddPackage cronie                 # Daemon that runs specified programs at sched
 AddPackage kitty                  # A modern, hackable, featureful, OpenGL-based terminal emulator
 AddPackage kitty-terminfo         # Terminfo for kitty, an OpenGL-based terminal emulator
 AddPackage linux                  # The Linux kernel and modules
+AddPackage linux-headers          # Headers and scripts for building modules for the Linux kernel
 AddPackage linux-firmware         # Firmware files for Linux
 AddPackage man-db                 # A utility for reading man pages
 AddPackage man-pages              # Linux man pages

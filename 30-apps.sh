@@ -164,10 +164,11 @@ AddPackage pv      # A terminal-based tool for monitoring the progress of data t
 AddPackage android-file-transfer # Android MTP client with minimalistic UI
 
 # ----------- Virtualization ---------------------------------------------------
-AddPackage virtualbox                   # Powerful x86 virtualization for enterprise as well as home use
-AddPackage virtualbox-host-modules-arch # Virtualbox host kernel modules for Arch Kernel
-AddPackage libvirt                      # API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)
+AddPackage virtualbox           # Powerful x86 virtualization for enterprise as well as home use
+AddPackage virtualbox-host-dkms # VirtualBox Host kernel modules sources
+AddPackage libvirt              # API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)
 IgnorePath '/var/lib/libvirt/swtpm'
+IgnorePath '/var/lib/dkms/vboxhost'
 
 AddPackage podman  # Tool and library for running OCI-based containers in pods
 AddPackage buildah # A tool which facilitates building OCI images
