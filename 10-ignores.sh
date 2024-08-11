@@ -40,7 +40,7 @@ IgnorePath '/var/lib/bluetooth'
 IgnorePath '/var/lib/blueman/network.state'
 IgnorePath '/var/lib/upower'
 IgnorePath '/var/lib/geoclue'
-IgnorePath '/var/lib/pacman/local' # package metadata
+IgnorePath '/var/lib/pacman/local'  # package metadata
 IgnorePath '/var/lib/pacman/sync/*' # repos
 IgnorePath '/var/lib/NetworkManager'
 IgnorePath '/var/lib/containers'
