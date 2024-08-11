@@ -144,7 +144,6 @@ CopyFile /boot/EFI/refind/refind.conf 755
 CopyFileTo /boot/refind_linux.conf."$HOSTNAME" /boot/refind_linux.conf 755
 
 # system
-CopyFile /etc/sudoers
 CopyFile /etc/systemd/zram-generator.conf
 CopyFile /etc/sysctl.d/99-vm-zram-parameters.conf
 CopyFile /etc/locale.conf
@@ -181,6 +180,9 @@ f="$(GetPackageOriginalFile mkinitcpio /etc/mkinitcpio.conf)"
 HOOKS="(base udev autodetect microcode modconf kms keyboard keymap block zfs filesystems)"
 sed -i "s/^HOOKS=.*/HOOKS=${HOOKS}/" "$f"
 sed -i 's/^MODULES=.*/MODULES=(zfs)/' "$f"
+
+f="$(GetPackageOriginalFile sudo /etc/sudoers)"
+sed -i '/# %wheel ALL=(ALL:ALL) ALL/s/^# //' "$f"
 
 # =========== Services =========================================================
 
