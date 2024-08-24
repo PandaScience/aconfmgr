@@ -10,6 +10,8 @@ AddPackage kitty                  # A modern, hackable, featureful, OpenGL-based
 AddPackage kitty-terminfo         # Terminfo for kitty, an OpenGL-based terminal emulator
 AddPackage linux                  # The Linux kernel and modules
 AddPackage linux-headers          # Headers and scripts for building modules for the Linux kernel
+AddPackage linux-lts              # The LTS Linux kernel and modules
+AddPackage linux-lts-headers      # Headers and scripts for building modules for the LTS Linux kernel
 AddPackage linux-firmware         # Firmware files for Linux
 AddPackage man-db                 # A utility for reading man pages
 AddPackage man-pages              # Linux man pages
@@ -25,6 +27,7 @@ AddPackage refind                 # An EFI boot manager
 AddPackage reflector              # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 AddPackage vim                    # Vi Improved, a highly configurable, improved version of the vi text editor
 AddPackage zfs-linux              # Kernel modules for the Zettabyte File System.
+AddPackage zfs-linux-lts          # Kernel modules for the Zettabyte File System.
 AddPackage zfs-utils              # Kernel module support files for the Zettabyte File System.
 AddPackage zram-generator         # Systemd unit generator for zram devices
 AddPackage zsh                    # A very advanced and programmable command interpreter (shell) for UNIX
