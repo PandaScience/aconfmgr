@@ -25,3 +25,17 @@ if [[ "$(hostnamectl hostname)" == "framework" ]]; then
 
 	AddPackage signal-desktop # Signal Private Messenger for Linux
 fi
+
+if [[ "$ACONFMGR_SCIENCE" == "true" ]]; then
+	# physics
+	AddPackage python-pandas   # High-performance, easy-to-use data structures and data analysis tools for Python
+	AddPackage python-sympy    # Symbolic manipulation package (Computer Algebra System), written in pure Python
+	AddPackage tk              # A windowing toolkit for use with tcl
+	AddPackage --foreign libxc # A library of exchange-correlation functionals for density-functional theory
+	AddPackage --foreign vesta # Visualization for Electronic and STructural Analysis
+
+	# required by VESTA
+	AddPackage jdk-openjdk # OpenJDK Java 22 development kit
+	CreateLink /usr/lib/jvm/default java-22-openjdk
+	CreateLink /usr/lib/jvm/default-runtime java-22-openjdk
+fi
