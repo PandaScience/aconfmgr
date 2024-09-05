@@ -52,6 +52,7 @@ AddPackage shellcheck  # Shell script analysis tool
 AddPackage tokei       # A blazingly fast CLOC (Count Lines Of Code) program
 AddPackage gitui       # Blazing fast terminal-ui for git written in Rust
 AddPackage tig         # Text-mode interface for Git.
+AddPackage httpie      # human-friendly CLI HTTP client for the API era
 
 AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 CopyFile /usr/share/applications/code-wayland.desktop
@@ -59,9 +60,13 @@ CopyFile /usr/share/applications/code-wayland.desktop
 AddPackage --foreign aws-cli-v2       # Unified command line interface for Amazon Web Services (version 2)
 AddPackage azure-cli                  # Command-line tools for Azure.
 AddPackage --foreign google-cloud-cli # A set of command-line tools for the Google Cloud Platform. Includes gcloud (with beta and alpha commands), gsutil, and bq.
+AddPackage hcloud                     # CLI for Hetzner Cloud
 
 AddPackage minikube                  # A tool that makes it easy to run Kubernetes locally
 AddPackage --foreign rancher-k3d-bin # Little helper to run Rancher Labs k3s in Docker
+
+AddPackage sops # Editor of encrypted files that supports YAML, JSON and BINARY formats
+AddPackage helm # The Kubernetes Package Manager
 
 # ----------- Gaming -----------------------------------------------------------
 AddPackage steam # Valve's digital software delivery system
@@ -187,7 +192,8 @@ IgnorePath '/var/lib/containerd'
 IgnorePath '/var/lib/cni/networks'
 IgnorePath '/etc/cni/net.d'
 
-AddPackage docker # Pack, ship and run any application as a lightweight container
+AddPackage docker        # Pack, ship and run any application as a lightweight container
+AddPackage docker-buildx # Docker CLI plugin for extended build capabilities with BuildKit
 CreateLink /etc/systemd/system/multi-user.target.wants/docker.service /usr/lib/systemd/system/docker.service
 IgnorePath /etc/containers/networks
 IgnorePath /opt/containerd/bin 711
