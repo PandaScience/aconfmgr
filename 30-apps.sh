@@ -98,6 +98,8 @@ AddPackage inkscape # Professional vector graphics editor
 AddPackage libreoffice-fresh  # LibreOffice branch which contains new features and program enhancements
 AddPackage mupdf              # Lightweight PDF and XPS viewer
 AddPackage --foreign qpdfview # A tabbed PDF viewer using the poppler library
+AddPackage pdfarranger        # Helps merge or split PDF documents and rotate, crop and rearrange pages
+AddPackage diffpdf            # Diffing pdf files visually or textually
 
 # installed as group extra/texlive
 AddPackage texlive-basic            # TeX Live - Essential programs and files
