@@ -9,6 +9,7 @@ AddPackage mtools    # A collection of utilities to access MS-DOS disks
 AddPackage ntfs-3g   # NTFS filesystem driver and utilities
 AddPackage ncdu      # Disk usage analyzer with an ncurses interface
 AddPackage nautilus  # Default file manager for GNOME
+AddPackage zip       # Compressor/archiver for creating and modifying zipfiles
 
 AddPackage wavemon # Ncurses-based monitoring application for wireless network devices
 AddPackage ipcalc  # Calculates IP broadcast, network, Cisco wildcard mask, and host ranges
@@ -42,6 +43,7 @@ AddPackage fcitx5-rime           # RIME support for Fcitx5
 AddPackage go          # Core compiler tools for the Go programming language
 AddPackage python      # The Python programming language
 AddPackage python-pipx # Install and Run Python Applications in Isolated Environments
+AddPackage ipython     # Enhanced Interactive Python shell
 AddPackage jq          # Command-line JSON processor
 AddPackage go-yq       # Portable command-line YAML processor
 AddPackage jless       # A command-line pager for JSON data
@@ -123,6 +125,8 @@ AddPackage texlive-xetex            # TeX Live - XeTeX and packages
 IgnorePath '/etc/texmf/*'
 IgnorePath '/var/lib/texmf'
 IgnorePath '/usr/share/texmf-dist'
+
+AddPackage biber # A Unicode-capable BibTeX replacement for biblatex users
 
 # ----------- Print & Scan -----------------------------------------------------
 AddPackage cups                          # OpenPrinting CUPS - daemon package
