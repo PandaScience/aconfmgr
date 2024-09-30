@@ -19,7 +19,7 @@ AddPackage neofetch               # A CLI system information tool written in BAS
 AddPackage neovim                 # Fork of Vim aiming to improve user experience, plugins, and GUIs
 AddPackage networkmanager         # Network connection manager and user applications
 AddPackage networkmanager-openvpn # NetworkManager VPN plugin for OpenVPN
-AddPackage mlocate                # Merging locate/updatedb implementation
+AddPackage plocate                # Alternative to locate, faster and compatible with mlocate's database.
 AddPackage openssh                # SSH protocol implementation for remote login, command execution and file transfer
 AddPackage pacman-contrib         # Contributed scripts and tools for pacman systems
 AddPackage parted                 # A program for creating, destroying, resizing, checking and copying partitions
@@ -31,6 +31,7 @@ AddPackage zfs-linux-lts          # Kernel modules for the Zettabyte File System
 AddPackage zfs-utils              # Kernel module support files for the Zettabyte File System.
 AddPackage zram-generator         # Systemd unit generator for zram devices
 AddPackage zsh                    # A very advanced and programmable command interpreter (shell) for UNIX
+AddPackage zip                    # Compressor/archiver for creating and modifying zipfiles
 
 # ----------- Configuration ----------------------------------------------------
 AddPackage --foreign yay          # Yet another yogurt. Pacman wrapper and AUR helper written in go.
