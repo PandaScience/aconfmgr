@@ -64,6 +64,7 @@ AddPackage hcloud                     # CLI for Hetzner Cloud
 
 AddPackage minikube                  # A tool that makes it easy to run Kubernetes locally
 AddPackage --foreign rancher-k3d-bin # Little helper to run Rancher Labs k3s in Docker
+AddPackage --foreign kubeswitch-bin  # The kubectx for operators.
 
 AddPackage sops # Editor of encrypted files that supports YAML, JSON and BINARY formats
 AddPackage helm # The Kubernetes Package Manager
