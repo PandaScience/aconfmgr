@@ -97,6 +97,8 @@ AddPackage greetd              # Generic greeter daemon
 AddPackage greetd-tuigreet     # A console UI greeter for greetd
 AddPackage hyprland            # a highly customizable dynamic tiling Wayland compositor
 AddPackage hyprwayland-scanner # A Hyprland implementation of wayland-scanner, in and for C++
+AddPackage --foreign swayfx    # SwayFX: Sway, but with eye candy!
+AddPackage autotiling          # Script for sway and i3 to automatically switch the horizontal / vertical window split orientation
 AddPackage waybar              # Highly customizable Wayland bar for Sway and Wlroots based compositors
 
 AddPackage xdg-desktop-portal-hyprland # xdg-desktop-portal backend for hyprland
