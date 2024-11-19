@@ -36,6 +36,6 @@ if [[ "$ACONFMGR_SCIENCE" == "true" ]]; then
 
 	# required by VESTA
 	AddPackage jdk-openjdk # OpenJDK Java 22 development kit
-	CreateLink /usr/lib/jvm/default java-22-openjdk
-	CreateLink /usr/lib/jvm/default-runtime java-22-openjdk
+	CreateLink /usr/lib/jvm/default java-23-openjdk
+	CreateLink /usr/lib/jvm/default-runtime java-23-openjdk
 fi
