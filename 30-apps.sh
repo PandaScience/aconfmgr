@@ -66,8 +66,10 @@ AddPackage minikube                  # A tool that makes it easy to run Kubernet
 AddPackage --foreign rancher-k3d-bin # Little helper to run Rancher Labs k3s in Docker
 AddPackage --foreign kubeswitch-bin  # The kubectx for operators.
 
-AddPackage sops # Editor of encrypted files that supports YAML, JSON and BINARY formats
-AddPackage helm # The Kubernetes Package Manager
+AddPackage sops         # Editor of encrypted files that supports YAML, JSON and BINARY formats
+AddPackage helm         # The Kubernetes Package Manager
+AddPackage ansible      # Official assortment of Ansible collections
+AddPackage ansible-lint # Checks playbooks for practices and behaviour that could potentially be improved.
 
 # ----------- Gaming -----------------------------------------------------------
 AddPackage steam # Valve's digital software delivery system
