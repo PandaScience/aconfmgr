@@ -91,8 +91,9 @@ AddPackage lsp-plugins-lv2 # Collection of open-source plugins - LV2
 
 AddPackage musescore # Create, play and print beautiful sheet music
 
-AddPackage grim  # Screenshot utility for Wayland
-AddPackage slurp # Select a region in a Wayland compositor
+AddPackage grim      # Screenshot utility for Wayland
+AddPackage slurp     # Select a region in a Wayland compositor
+AddPackage flameshot # Powerful yet simple to use screenshot software
 
 AddPackage cameractrls # Camera controls for Linux
 AddPackage guvcview    # Simple GTK+ interface for capturing and viewing video from v4l2 devices
