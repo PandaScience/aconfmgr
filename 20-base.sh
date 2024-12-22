@@ -103,7 +103,7 @@ AddPackage waybar              # Highly customizable Wayland bar for Sway and Wl
 
 AddPackage xdg-desktop-portal-hyprland # xdg-desktop-portal backend for hyprland
 
-AddPackage kanshi              # Dynamic output configuration for Wayland WMs
+AddPackage --foreign shikane   # deterministic dynamic output configuration tool for Wayland compositors
 AddPackage --foreign wdisplays # GUI display configurator for wlroots compositors
 AddPackage wlr-randr           # Utility to manage outputs of a Wayland compositor
 
