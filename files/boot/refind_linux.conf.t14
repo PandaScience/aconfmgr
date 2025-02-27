@@ -1,0 +1,4 @@
+"Boot using default options"     "root=PARTUUID=ca0b368c-4d90-4b41-8a4d-7508617fe9d3 rw add_efi_memmap zfs=bootfs zswap.enabled=0 initrd=initramfs-%v.img"
+"Boot using fallback initramfs"  "root=PARTUUID=ca0b368c-4d90-4b41-8a4d-7508617fe9d3 rw add_efi_memmap zfs=bootfs zswap.enabled=0 initrd=initramfs-%v-fallback.img"
+"Boot to terminal"               "root=PARTUUID=ca0b368c-4d90-4b41-8a4d-7508617fe9d3 rw add_efi_memmap zfs=bootfs zswap.enabled=0 initrd=initramfs-%v.img systemd.unit=multi-user.target"
+"Boot in single user mode"       "root=PARTUUID=ca0b368c-4d90-4b41-8a4d-7508617fe9d3 rw add_efi_memmap zfs=bootfs zswap.enabled=0 initrd=initramfs-%v.img single"
